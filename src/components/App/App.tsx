@@ -25,9 +25,6 @@ export default function App() {
     bad: 0} );
   }
 
-//   const totalVotes = (type: keyof Votes) => {
-//     return votes.good + votes.neutral + votes.bad;
-//   }
    const totalVotes : number = votes.good + votes.neutral + votes.bad;
    const positiveRate = totalVotes ? Math.round((votes.good/ totalVotes) * 100):0;
 
