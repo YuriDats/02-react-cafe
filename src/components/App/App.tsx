@@ -6,7 +6,7 @@ import type { Votes } from '../type/Votes';
 import VoteStasts from '../VoteStats/VoteStats';
 import Notification from '../Notification/Notification';
 
-
+// fds
 
 export default function App() {
   const [votes, setVotes] = useState<Votes>({
