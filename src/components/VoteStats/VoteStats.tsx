@@ -1,5 +1,5 @@
 import styles from './VoteStats.module.css';
-import type { Votes } from '../type/Votes';
+import type { Votes } from '../Type/Votes';
 
 interface VoteStastsProps {
     votes: Votes,
